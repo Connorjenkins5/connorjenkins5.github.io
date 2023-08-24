@@ -1,0 +1,258 @@
+body {
+    padding: 0;
+    padding-left: 150px;
+    margin: 0;
+    background: #ffffff;
+    /* Background gradients */
+    background: -moz-linear-gradient(45deg, #EAE0D5 0%, #EAE0D5 100%);
+    background: -webkit-linear-gradient(45deg, #EAE0D5 0%, #EAE0D5 100%);
+    background: linear-gradient(45deg, #ffffff 0%, #ffffff 100%);
+  }
+  
+  .header {
+    background-color: #ffffff;
+    color: #EAE0D5;
+    padding: 20px;
+    
+    
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile {
+    width: 300px;
+    height: 300px;
+    border-radius: 0%;
+    
+  }
+  
+  .profile img {
+    max-width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    
+    }
+    
+    .title-box {
+      
+      padding: 10px;
+      border-radius: 50%;
+      font-family: 'Nunito Sans', sans-serif;    
+    }
+  
+  /* tabs */
+  .floating-tabs {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #535050; /* Background color of the tabs */
+    text-align: center;
+    padding: 20px;
+    height: 35px;
+    
+  }
+  
+  .floating-tabs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }
+  
+  .floating-tabs li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .floating-tabs a {
+    text-decoration: none;
+    color: #fff;
+    
+  }
+  
+  .floating-tabs-top {
+    position: fixed;
+    bottom: auto;
+    top: 0;
+  }
+  
+  .tabs ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex; /* Display the tabs side by side */
+      justify-content: flex-end; /* Align tabs to the right */
+      margin-right: 4000px; /* Manually shift to the right */
+    }
+    
+    .tabs li {
+      margin-left: 20px; /* Add some spacing between tabs */
+    }
+    
+    .tabs a {
+      text-decoration: none;
+      color: #333; /* Adjust the color */
+      font-weight: bold;
+    }
+  
+    
+    
+    .Intro {
+      margin: 40px auto;
+      padding: 20px 30px 40px 30px;
+      background-color: #FFFFFF;
+      overflow: auto;
+      width: 75%;
+      border-radius: 4px;
+      align-self: center;
+    }
+    
+    .Subhead {
+      color: black;
+      text-align: center;
+      line-height: 24px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      color: #000000;
+      padding-bottom: 20px;
+      
+    }
+    
+    .spectrum div {
+      font: inherit;
+      padding: 0 20px;
+      color: #FFFFFF;
+      overflow: auto;
+      opacity: 0.9;
+    }
+    
+    .spectrum p {
+      color: #FFFFFF;
+      text-align: left;
+    }
+     
+     
+    /* Typography */
+    h1 {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 80px;
+      line-height: 76px;
+      margin: 0;
+      position: relative;
+      text-align: center;
+      top: 20%;
+      color: rgb(0, 0, 0);
+    }
+    
+    h2 {
+      color: #E4BB97;
+      font-family: 'Raleway', sans-serif;
+      font-size: 28px;
+      font-weight: 500;
+      text-align: left;
+      text-transform: uppercase;
+    }
+    
+    h3 {
+      color: #41292C;
+      font-family: 'Raleway', sans-serif;
+      font-size: 22px;
+      font-weight: 500;
+      text-align: center;
+    }
+    
+    h4 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: .2em;
+    }
+    
+    h5 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+      line-height: .2em;
+      font-weight: 300;
+    }
+    
+    /* Page elements */
+    ul {
+      margin: 0 auto;
+      padding: 0;
+      width: 75%;
+    }
+    
+    li {
+      border-bottom: 1px solid #E4BB97;
+      list-style: none;
+      margin: 100px 0px;
+      padding-bottom: 60px;
+    }
+    
+    p {
+      color: #444444;
+      line-height: 32px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 25px;
+      font-weight: 400;
+    }
+    
+    a {
+      color: #214E34;
+      font-family: 'Raleway', sans-serif;
+      font-size: 13px;
+      font-weight: 900;
+      text-align: left;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 2px;
+    }
+  
+    .experience {
+      background-image: url("#");
+      background-size: cover; /* Adjust the image size behavior */
+      background-position: center center; /* Adjust the image position */
+      width: 100%;
+      padding: 50px; /* Add padding to the section */
+      color: white; /* Set text color to contrast with the background */
+    }
+    
+      #mid{
+        position: relative;
+        width: 600px;
+        height: 200px;
+      }
+      #image{
+        height:64x;
+        width:64px;
+      }
+      #image2{
+        position:absolute;
+        top:45px;
+        left : 301px;
+        height:64x;
+        width:64px;
+      }
+      #gate {
+        background-image: url("http://5starsdesign.be/bg2.png");
+        position: absolute;
+        height: 50px;
+        width: 100%;
+        left: 0px;
+        top: 130px;
+        text-align: center;
+        font-family: "Arial Black", Gadget, sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+        background-color:yellow;
+        text-transform: uppercase;
+        background-size: 50px 50px;
+        color: white;
+        text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+      }
